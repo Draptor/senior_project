@@ -44,4 +44,13 @@ class Lab {
     public void setAvailable_machines(int availableMachines){
         this.available_machines = availableMachines;
     }
+
+    public String toString(){
+        StringBuffer buf = new StringBuffer();
+        buf.append(lab_id);
+        buf.append(lab_name);
+        buf.append(available_machines);
+        buf.append(total_machines);
+        return buf.toString();
+    }
 }

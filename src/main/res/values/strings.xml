@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestingJSON</string>
+    <string name="app_name">LabGrab49</string>
     <string name="main_button">Search Labs</string>
     <string name="available_tag">Available Labs:</string>
     <string name="total_tag">Total:</string>
